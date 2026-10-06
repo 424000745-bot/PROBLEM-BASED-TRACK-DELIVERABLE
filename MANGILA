@@ -1,0 +1,17 @@
+void main() {
+
+  String studentName = 'Yana Panogaling';
+  int score = 90;             
+  double bonusPoints = 7.5;    
+
+  double finalScore = score + bonusPoints;
+
+  bool isPassed = finalScore >= 75.0; // bool
+
+  print('=== Student Grade Summary ===');
+  print('Student Name: $studentName');
+  print('Base Score: $score');
+  print('Bonus Points: $bonusPoints');
+  print('Final Score: $finalScore');
+  print('Passed Status: $isPassed');
+}
